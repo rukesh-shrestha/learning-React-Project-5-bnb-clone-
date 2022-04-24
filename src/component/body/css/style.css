@@ -1,0 +1,164 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.imgheight {
+    width: 1200px;
+
+
+}
+
+.text-title {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text-description {
+    color: #222222;
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+
+
+@media only screen and (max-width: 2500px) {
+    .starpadding{
+        padding:7px 0  0 0;
+       
+        
+    }
+
+    .desc{
+        padding:0 0 0 13px;
+    }
+
+    .divheight{
+        height:33px;
+     }
+
+
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+
+    .text-title {
+
+        font-size: 45px;
+    }
+
+    .text-description {
+
+        font-size: 25px;
+
+
+    }
+
+    .starpadding{
+        padding:7px 0  0 52px;
+       
+        
+    }
+    .desc{
+        padding:0 0 0 66px;
+    }
+
+    .divheight{
+        height:35px;
+     }
+
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    /*Big smartphones [426px -> 600px]*/
+    .logo {
+        height: 40px;
+    }
+
+    .text-title {
+
+        font-size: 36px;
+    }
+
+    .text-description {
+
+        font-size: 16px;
+
+
+    }
+
+    .star {
+        height: 18px;
+    }
+
+    .starpadding{
+        padding:7px 0  0  0;
+       
+        
+    }
+    .desc{
+        padding:0 0 0 12px;
+    }
+    .divheight{
+        height:30px;
+     }
+
+   
+   
+    
+
+}
+
+@media only screen and (max-width: 425px) {
+    /*Small smartphones [325px -> 425px]*/
+
+    .logo {
+        height: 35px;
+    }
+
+    .text-title {
+
+        font-size: 26px;
+    }
+
+    .text-description {
+
+        font-size: 14px;
+
+
+    }
+
+   
+
+
+    .lowerimage {
+        height: 250px;
+    }
+
+    .star {
+        height: 15px;
+
+    }
+
+ 
+    .desc{
+        padding:0 0 0 13px;
+        font-size: 12px;
+       
+    }
+
+    .divheight{
+       height:33px;
+       
+    }
+   
+
+}
