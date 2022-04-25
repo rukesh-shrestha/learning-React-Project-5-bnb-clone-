@@ -7,7 +7,7 @@ export default function LowerSection() {
     <>
       <div className="d-flex">
         <div>
-          <Image image={image1} style="lowerimage" />
+          <Image image={image1} styles="lowerimage" />
           <HeroLower />
         </div>
       </div>
